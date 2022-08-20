@@ -1,0 +1,14 @@
+.addtocart-section{
+    margin-top: 2rem;
+}
+
+.addtocart-section .active{
+    opacity: 1;
+}
+.addtocart-section .btn-container {
+    margin-top: 2rem;
+}
+.addtocart-section .btn {
+    margin-top: 1rem;
+    width: 140px;
+}

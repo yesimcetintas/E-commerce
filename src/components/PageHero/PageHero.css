@@ -1,0 +1,17 @@
+.pagehero-section{
+    background: var(--clr-primary-10);
+    width: 100%;
+    min-height: 1vh;
+    display: flex;
+    align-items: center;
+    color: var(--clr-primary-1);
+}
+
+.pagehero-section a{
+    color: var(--clr-primary-3);
+    padding: 0.5rem;
+    transition: var(--transition);
+}
+.pagehero-section a:hover {
+    color: var(--clr-primary-1);
+}

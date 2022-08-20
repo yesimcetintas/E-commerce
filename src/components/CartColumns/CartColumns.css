@@ -1,0 +1,27 @@
+.cartcolumns-section{
+    display: none;
+}
+
+@media (min-width: 776px) {
+    .cartcolumns-section{
+        display: block;
+    }
+    .cartcolumns-section .content{
+        display: grid;
+        grid-template-columns: 316px 1fr 1fr 1fr auto;
+        justify-items: center;
+        column-gap: 1rem;
+    }
+    .cartcolumns-section .content h5{
+        color: var(--clr-grey-5);
+        font-weight: 400;
+    }
+    .cartcolumns-section span{
+        width: 2rem;
+        height: 2rem;
+    }
+    .cartcolumns-section hr{
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+}
